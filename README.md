@@ -27,3 +27,6 @@ In order to connect to internet
 </Directory>
  ```
  - Disable firewalls 
+
+## Main idea
+We will be reading from php files and sending Http Requests
