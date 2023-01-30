@@ -27,6 +27,8 @@ In order to connect to internet
 </Directory>
  ```
  - Disable firewalls 
+ - Php files should be located in the htdocs directory for XAMPP and www directory for WAMPP
+ - The database I used was called demo, table called users containing id, username and password
 
 ## Main idea
 We will be reading from php files and sending Http Requests
