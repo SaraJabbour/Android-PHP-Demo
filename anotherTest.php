@@ -1,4 +1,5 @@
 <?php
+
     $idcon=mysqli_connect("127.0.0.1","root","","demo");
     if($idcon)
         $err=0;
@@ -15,4 +16,5 @@
         $jsonAr[$i++]=$ar;
 
     echo json_encode($jsonAr);
+
 ?>
