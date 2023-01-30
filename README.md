@@ -17,7 +17,7 @@ In order to connect to internet
  ```
  Note: Don't forget to add the intents
  ### Firewalls and permissions
- - Make sure that the httpd.conf has a all request grated in Directory root
+ - Make sure that the httpd.conf has a all require all granted in Directory root
  ```
  <Directory "C:/xampp/htdocs"> 
     #
